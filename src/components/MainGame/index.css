@@ -1,0 +1,106 @@
+.score-container {
+  background-color: #223a5f;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #ffffff;
+  border-radius: 5px;
+  font-family: Bree Serif;
+}
+
+.main-container {
+  background-color: #223a5f;
+  height: 100vh;
+  padding: 10px;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.score-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.options-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.choice-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.popup-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.trigger-button {
+  align-self: flex-end;
+}
+
+.popup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  position: fixed; /* Cover the entire viewport */
+  z-index: 1000; /* High z-index to be on top of other content */
+  color: #ffffff;
+}
+
+.rules-img {
+  height: 50vh;
+}
+
+.p-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.close-btn {
+  align-self: flex-end;
+}
+
+.results-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.result-img {
+  height: 20vh;
+}
+.r-c {
+  color: #ffffff;
+}
